@@ -1,26 +1,19 @@
-# ![4Geeks Logo](http://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,16) HTML Hello
+--> Importan: Remember execute the following commands  to instala flask and run the servers.
+$ pip3 install flask && python3 server.py`
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/html-hello.git)
+--> In this project I've use the Flexbox Layout to give order to the items.
 
-The most basic boilerplate for any 4Geeks Academy Student using the [gitpod.io](gitpod.io) coding editor.
+--> Notes:
+1- justify-content: center; /* used for the main axis */
+2- align-items: center; /* used for the cross axis */
 
-[![How to open html/css preview of my project in gitpod](https://ucarecdn.com/573d0bef-9c8c-48dd-a6ef-401972dff96d/)](https://youtu.be/dfbDCMu_p-0)
+--> Flexbox: 
+-> very well explained here: https://www.w3schools.com/css/css3_flexbox.asp
+-> Summary:
+1.- A Flexible Layout must have a parent element with the display property set to flex.
+2.- display: flex; /* Flexbox Layout: The flex container becomes flexible by setting the display property to flex. */
+3.- Direct child elements(s) of the flexible container automatically becomes flexible items.
 
-## What to do next?
-
-Create a `index.html` file with the [basic HTML structure](http://content.breatheco.de/lesson/what-is-html-learn-html#page-structure) and see it live by running web-server using the following command:
-
-```sh
-$ pip3 install flask && python3 server.py
-```
-
-- You can create as many HTML files you want
-- You can also create CSS files and you can import them onto your website using a `<link>` tag placed between the `<head></head>` tags, like this:
-
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+--> lorempixel: is a placeholder image generator. You can use this on the image tag,
+    instead of the route of an image on the proyect.
+    example: <!--<img src="http://lorempixel.com/400/400/">-->
