@@ -1,0 +1,86 @@
+body{
+    background: lightgray;
+	font-family: sans-serif;
+	margin: 0;
+    //margin-top: 200px;
+  /*//margin: auto;*/
+
+}
+header{
+    background: white;
+	text-align: center;
+	/*//margin: 0;*/
+    margin-bottom: 40px; /* para dejar un espacio bajo el encabezamiento. */
+    min-height: 60px;
+    justify-content: center;
+    display: flex;
+    flex-flow: column;
+        align-items: center;
+
+}
+header h1{
+	margin: 0;
+    //background: green;
+        //align-items: center;
+    //align-content: center;
+    //justify-content: center;
+        	text-align: left;
+    //text-justify: auto;
+    line-height: 100%;
+   	width: 600px;
+
+}
+.wrapper{
+    //background: blue;
+	width: 600px;
+	margin: auto; /* para centrar todas las entradas del feed. */
+    align-items: center;
+
+}
+.flex-container{
+    /*//background: green;*/
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.entry{
+    /*//min-height: 200px;*/
+    min-width: 600px;
+	margin: auto;
+    display: flex;
+    flex-flow: column;
+	justify-content: center;
+	/*//align-items: center;*/
+    background: white;
+	margin-bottom: 40px; /* para dejar un espacio entre cada entrada en el feed. */
+}
+.entry-head{
+	//background: red;
+	justify-content: space-between; /* para que se vaya cada elemento a un extremo */
+	display: flex;
+	/*//flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between; 
+	flex-grow: 1;
+	display:inline-flex;*/
+	//width: 100%;
+}
+.entry-head > div {
+	padding: 0 10px 0 10px;
+}
+.entry-body img{
+	width: 100%;
+	//height: 100%;
+	/*//border: 1px solid lightgray;*/
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+.entry-footer{
+	/*//background: yellow;*/
+	/*padding = padding-top, padding-right, padding-bottom, padding-left*/
+	padding: 0 20px 0 20px;
+}
